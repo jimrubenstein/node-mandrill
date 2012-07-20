@@ -7,6 +7,11 @@ function makeMandrill(key)
 {
     function mandrill(path, opts, callback)
     {
+        var format = path.split('.');
+
+        if (format.length == 0) format = 'json';
+        else format = format[1];
+
         if (typeof opts == 'function')
         {
             var callback = opts;
@@ -27,7 +32,7 @@ function makeMandrill(key)
                 if (!error)
                 {
                     //everything is good!
-                    if (path.substr(-4).toLowerCase() == 'json')
+                    if (format == 'json')
                     {
                         body = JSON.parse(body);
                     }
