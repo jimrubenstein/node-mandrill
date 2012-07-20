@@ -10,7 +10,7 @@ function makeMandrill(key)
         var format = path.split('.');
 
         if (format.length == 0) format = 'json';
-        else format = format[1];
+        else format = format[1].toLowerCase();
 
         if (typeof opts == 'function')
         {
