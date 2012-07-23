@@ -77,14 +77,14 @@ To make a call to the API, call the `mandrill` function.  For example:
 - node.js v0.8.2+ (0.8.2 is the version I used to develop this module.  I'm
   unsure if it will work with previous ones.  If you run a previous version, and
   it works, let me know and i'll update this)
-- (https://github.com/mikeal/request/)[request] 2.9.100+
-- (https://github.com/documentcloud/underscore/)[underscore] 1.3.3+
+- [request](https://github.com/mikeal/request/) 2.9.100+
+- [underscore](https://github.com/documentcloud/underscore/) 1.3.3+
 
 ## Question? Problems?
 
 If you run into problems, have questions, or whatever else you can open an
 issue on this repository, or tweet me
-(http://twitter.com/jim_rubenstein)[@jim_rubenstein].  If you'd like to submit
+[@jim_rubenstein](http://twitter.com/jim_rubenstein).  If you'd like to submit
 a patch, shoot me a pull request.  I'd like to keep this module simple, so if
 you want to add all kinds of crazy functionality - you might want to fork.
 When in doubt, send a pull request - the worst that can happen is that I won't
