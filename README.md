@@ -29,7 +29,7 @@ To make a call to the API, call the `mandrill` function.  For example:
             to: [{email: 'git@jimsc.com', name: 'Jim Rubenstein'}],
             from: 'you@domain.com',
             subject: "Hey, what's up?",
-            message: "Hello, I sent this message using mandrill."
+            text: "Hello, I sent this message using mandrill."
         }
     }, function(error, response)
     {
