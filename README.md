@@ -8,7 +8,6 @@ Mandrill API specification, is how to install and install the module, and how
 to make a call.
 
 ## Installation
-* * *
 
 Until I submit to npm, you'll want to follow these directions:
 
@@ -16,7 +15,6 @@ Until I submit to npm, you'll want to follow these directions:
     git clone git://github.com/jimrubenstein/node-mandrill.git mandrill
 
 ## Usage
-* * *
 
 Usage is super simple.  To require the mandrill library and initialize it with
 your account API key:
@@ -44,6 +42,7 @@ To make a call to the API, call the `mandrill` function.  For example:
 
 > ### Arguments
 > **mandrill(*string: api-endpoint*, *object: options*, *[function: callback]*)**
+>
 > **mandrill(*string: api-endpiont*, *function: callback]*)**
 >
 > **Api Endpoint**: The REST url for the API you want to access.  By default,
@@ -74,18 +73,18 @@ To make a call to the API, call the `mandrill` function.  For example:
 
 ## Requirements
 
-- A [http://mandrill.com/](Mandrill) account w/API key.
+- A (http://mandrill.com/)[Mandrill] account w/API key.
 - node.js v0.8.2+ (0.8.2 is the version I used to develop this module.  I'm
-  unsure if it will work with previous ones, if you run a previous version, and
+  unsure if it will work with previous ones.  If you run a previous version, and
   it works, let me know and i'll update this)
-- [https://github.com/mikeal/request/](request) 2.9.100+
-- [https://github.com/documentcloud/underscore/](underscore) 1.3.3+
+- (https://github.com/mikeal/request/)[request] 2.9.100+
+- (https://github.com/documentcloud/underscore/)[underscore] 1.3.3+
 
 ## Question? Problems?
 
 If you run into problems, have questions, or whatever else you can open an
 issue on this repository, or tweet me
-[http://twitter.com/jim_rubenstein](@jim_rubenstein).  If you'd like to submit
+(http://twitter.com/jim_rubenstein)[@jim_rubenstein].  If you'd like to submit
 a patch, shoot me a pull request.  I'd like to keep this module simple, so if
 you want to add all kinds of crazy functionality - you might want to fork.
 When in doubt, send a pull request - the worst that can happen is that I won't
