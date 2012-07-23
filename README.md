@@ -16,14 +16,14 @@ Using NPM:
 If you don't have or don't want to use [npm](http://npmjs.org)
 
     cd ~/.node_modules
-    git clone git://github.com/jimrubenstein/node-mandrill.git mandrill
+    git clone git://github.com/jimrubenstein/node-mandrill.git 
 
 ## Usage
 
 Usage is super simple.  To require the mandrill library and initialize it with
 your account API key:
 
-    var mandrill = require('mandrill')('<Your Api Key Here>');
+    var mandrill = require('node-mandrill')('<Your Api Key Here>');
 
 To make a call to the API, call the `mandrill` function.  For example:
 
