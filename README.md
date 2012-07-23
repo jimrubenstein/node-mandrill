@@ -9,7 +9,11 @@ to make a call.
 
 ## Installation
 
-Until I submit to npm, you'll want to follow these directions:
+Using NPM:
+
+    npm install node-mandrill
+
+If you don't have or don't want to use [npm](http://npmjs.org)
 
     cd ~/.node_modules
     git clone git://github.com/jimrubenstein/node-mandrill.git mandrill
