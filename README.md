@@ -73,7 +73,7 @@ To make a call to the API, call the `mandrill` function.  For example:
 
 ## Requirements
 
-- A (http://mandrill.com/)[Mandrill] account w/API key.
+- A [Mandrill](http://mandrill.com/) account w/API key.
 - node.js v0.8.2+ (0.8.2 is the version I used to develop this module.  I'm
   unsure if it will work with previous ones.  If you run a previous version, and
   it works, let me know and i'll update this)
