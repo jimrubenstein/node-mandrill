@@ -23,7 +23,7 @@ function makeMandrill(key)
             url: MANDRILL_API_ROOT + path,
         };
 
-        requestOptions['body'] = JSON.stringify( _.extend(opts, { key: key }) );
+        requestOptions['body'] = JSON.stringify( _.extend({ key: key }, opts) );
         
         request(requestOptions, function(error, response, body)
         {
