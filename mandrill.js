@@ -9,7 +9,7 @@ function makeMandrill(key)
     {
         var format = path.split('.');
 
-        if (format.length == 0) format = 'json';
+        if (format.length == 1) format = 'json';
         else format = format[1].toLowerCase();
 
         if (typeof opts == 'function')
@@ -20,7 +20,7 @@ function makeMandrill(key)
 
         var requestOptions = {
             method: 'POST',
-            url: MANDRILL_API_ROOT + path,
+            url: MANDRILL_API_ROOT + path + '.' + format,
         };
 
         requestOptions['body'] = JSON.stringify( _.extend({ key: key }, opts) );
