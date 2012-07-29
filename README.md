@@ -84,6 +84,21 @@ To make a call to the API, call the `mandrill` function.  For example:
 - [request](https://github.com/mikeal/request/) 2.9.100+
 - [underscore](https://github.com/documentcloud/underscore/) 1.3.3+
 
+## Running Tests
+
+Tests are written using [Jasmine](https://www.github.com/pivotal/jasmine), using
+the [jasmine-node](https://github.com/mhevery/jasmine-node) binaries.  You'll
+need to install jasmine-node to run the tests.
+
+Once jasmine is installed, you will need to edit the `spec/mandrill.spec.js`
+file to reflect your Mandrill API key, and an email address to receive your
+test e-mail on.  These two settings are at the top of the file.  Once they're
+in place, run your tests by doing:
+
+    $ ./test.sh
+
+On your command line.  If you're running windows, well, sorry. ):
+
 ## Question? Problems?
 
 If you run into problems, have questions, or whatever else you can open an
