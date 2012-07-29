@@ -9,6 +9,8 @@ function makeMandrill(key)
     {
         var format = path.split('.');
 
+        path = format[0];
+
         if (format.length == 1) format = 'json';
         else format = format[1].toLowerCase();
 
