@@ -4,16 +4,16 @@ node-mandrill is a node.js module designed to allow you to access MailChimp's
 Mandrill API with minimal overhead.
 
 I designed node-mandrill so the only documentation you need, in addition to the
-Mandrill API specification, is how to install and install the module, and how
-to make a call.
+Mandrill API specification, is how to install node, how to install the module,
+and how to make a call.
 
 ## Installation
 
-Using NPM:
+Using [npm](http://npmjs.org):
 
     npm install node-mandrill
 
-If you don't have or don't want to use [npm](http://npmjs.org)
+If you don't have or don't want to use npm:
 
     cd ~/.node_modules
     git clone git://github.com/jimrubenstein/node-mandrill.git 
@@ -80,7 +80,7 @@ To make a call to the API, call the `mandrill` function.  For example:
 - A [Mandrill](http://mandrill.com/) account w/API key.
 - node.js v0.8.2+ (0.8.2 is the version I used to develop this module.  I'm
   unsure if it will work with previous ones.  If you run a previous version, and
-  it works, let me know and i'll update this)
+  it works, let me know and I'll update this)
 - [request](https://github.com/mikeal/request/) 2.9.100+
 - [underscore](https://github.com/documentcloud/underscore/) 1.3.3+
 
