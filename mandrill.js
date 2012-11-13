@@ -36,7 +36,11 @@ function makeMandrill(key)
                     //everything is good!
                     if (format == 'json')
                     {
-                        body = JSON.parse(body);
+                        try {
+                            body = JSON.parse(body);
+                        } catch (e) {
+                            callback(e);
+                        }
                     }
 
                     if (response['statusCode'] >= 200 && response['statusCode'] < 300)
