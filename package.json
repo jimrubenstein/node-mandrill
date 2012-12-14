@@ -1,6 +1,6 @@
 {
     "name" : "node-mandrill",
-    "version" : "1.0.0",
+    "version" : "1.0.1",
     "description" : "A node.js wrapper for MailChimp's Mandrill API.",
     "author" : "Jim Rubenstein <jrubenstein@gmail.com> (http://twitter.com/jim_rubenstein)",
     "main" : "mandrill.js",
