@@ -1,7 +1,7 @@
-var request = require('request'),
+var request = require('requestretry'),
     _ = require('underscore');
 
-var MANDRILL_API_ROOT = 'https://mandrillapp.com/api/1.0/'; 
+var MANDRILL_API_ROOT = 'https://mandrillapp.com/api/1.0/';
 
 function makeMandrill(key)
 {
@@ -23,6 +23,10 @@ function makeMandrill(key)
         var requestOptions = {
             method: 'POST',
             url: MANDRILL_API_ROOT + path + '.' + format,
+
+            // The above parameters are specific to Request-retry:
+            maxAttempts: 4,   // try 4 times
+            retryDelay: 1000  // wait for 1s before trying again
         };
 
         requestOptions['body'] = JSON.stringify( _.extend({ key: key }, opts) );
