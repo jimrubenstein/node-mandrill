@@ -1,24 +1,33 @@
 {
-    "name" : "node-mandrill",
-    "version" : "1.0.1",
-    "description" : "A node.js wrapper for MailChimp's Mandrill API.",
-    "author" : "Jim Rubenstein <jrubenstein@gmail.com> (http://twitter.com/jim_rubenstein)",
-    "main" : "mandrill.js",
-    "repository" : {
-        "type" : "git",
-        "url" : "http://github.com/jimrubenstein/node-mandrill.git"
-    },
-    "bugs": {
-        "url": "https://github.com/jimrubenstein/node-mandrill/issues"
-    },    
-    "engines": {
-        "node": ">= 0.8.2"
-    },
-    "dependencies": {
-        "request": ">= 2.9.100",
-        "underscore": ">= 1.3.3"
-    },    
-    "homepage":  "http://github.com/jimrubenstein/node-mandrill.git",
-    "keywords": ["mandrill", "node mandrill", "mandrill api", "email", "send email", "email api", "mailchimp", "mailchimp api", "email mailchimp"]
+  "name": "node-mandrill",
+  "version": "1.0.1",
+  "description": "A node.js wrapper for MailChimp's Mandrill API.",
+  "author": "Jim Rubenstein <jrubenstein@gmail.com> (http://twitter.com/jim_rubenstein)",
+  "main": "mandrill.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jimrubenstein/node-mandrill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jimrubenstein/node-mandrill/issues"
+  },
+  "engines": {
+    "node": ">= 0.8.2"
+  },
+  "dependencies": {
+    "underscore": ">= 1.3.3",
+    "requestretry": "~1.0.1"
+  },
+  "homepage": "http://github.com/jimrubenstein/node-mandrill.git",
+  "keywords": [
+    "mandrill",
+    "node mandrill",
+    "mandrill api",
+    "email",
+    "send email",
+    "email api",
+    "mailchimp",
+    "mailchimp api",
+    "email mailchimp"
+  ]
 }
-
