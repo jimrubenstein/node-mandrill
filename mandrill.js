@@ -39,7 +39,7 @@ function makeMandrill(key)
                         try {
                             body = JSON.parse(body);
                         } catch (e) {
-                            callback(e);
+                            return callback(e);
                         }
                     }
 
